@@ -9,7 +9,7 @@ Distributed Systems Course at Innopolis University, Fall 2019
 
 ### rs.status()
 
-```json
+```javascript
 {
   "set" : "rs0",
   "date" : ISODate("2019-11-01T19:22:35.444Z"),
@@ -140,7 +140,7 @@ Distributed Systems Course at Innopolis University, Fall 2019
 
 ### rs.config()
 
-```json
+```javascript
 {
   "_id" : "rs0",
   "version" : 3,
@@ -214,7 +214,7 @@ Distributed Systems Course at Innopolis University, Fall 2019
 
 ### rs.status()
 
-```json
+```javascript
 {
   "set" : "rs0",
   "date" : ISODate("2019-11-01T19:42:56.581Z"),
@@ -345,7 +345,7 @@ Distributed Systems Course at Innopolis University, Fall 2019
 
 ### rs.config()
 
-```json
+```javascript
 {
   "_id" : "rs0",
   "version" : 3,
