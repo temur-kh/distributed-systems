@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+    .container{
+    padding: 0;
+    border: 1px grey solid;
+    width: 50vw;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;}
+        .text{
+    min-width: 100%;
+    margin-top: auto;
+}
+    </style>
+    <div class="container">
+        <div>
+            {% for message in messages %}
+                <p>{{ message }}</p>
+            {% endfor %}
+        </div>
+        <div>
+            <form action="/add_msg/" method="POST">
+                <!-- скрытый параметр -->
+                <label for="name">Type your name and message here:</label>
+                <input type="text" name="name" value="">
+                <input type="text" name="message" value="">
+                <input type="submit" class="btn btn-dark" value="Send">
+            </form>
+        </div>
+
+    </div>
+</head>
+<body>
+
+</body>
+</html>
+
